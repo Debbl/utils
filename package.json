@@ -1,0 +1,38 @@
+{
+  "name": "@debbl/utils",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "a collection of utility functions",
+  "author": "Brendan Dash <me@aiwan.run> (https://github.com/Debbl)",
+  "license": "MIT",
+  "keywords": [
+    "utility",
+    "utils"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c --configPlugin typescript",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp && pnpm publish"
+  },
+  "devDependencies": {
+    "@debbl/eslint-config": "^3.0.6",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "bumpp": "^9.4.0",
+    "eslint": "^8.57.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.4.2",
+    "vitest": "^1.3.1"
+  }
+}

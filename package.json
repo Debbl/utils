@@ -2,6 +2,7 @@
   "name": "@debbl/utils",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@8.15.4",
   "description": "a collection of utility functions",
   "author": "Brendan Dash <me@aiwan.run> (https://github.com/Debbl)",
   "license": "MIT",

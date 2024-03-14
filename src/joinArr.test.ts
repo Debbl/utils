@@ -7,4 +7,10 @@ describe("joinArr", () => {
     const result = joinArr(arr, 0);
     expect(result).toEqual([1, 0, 2, 0, 3]);
   });
+
+  it("if the array is empty, it should return an empty array", () => {
+    const arr: number[] = [];
+    const result = joinArr(arr, 0);
+    expect(result).toEqual([]);
+  });
 });

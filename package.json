@@ -2,7 +2,7 @@
   "name": "@debbl/utils",
   "type": "module",
   "version": "0.0.2",
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@9.6.0",
   "description": "a collection of utility functions",
   "author": "Brendan Dash <me@aiwan.run> (https://github.com/Debbl)",
   "license": "MIT",
@@ -46,13 +46,13 @@
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
-    "@debbl/eslint-config": "^3.0.6",
-    "bumpp": "^9.4.0",
-    "eslint": "^8.57.0",
-    "rollup": "^4.13.0",
-    "rollup-plugin-dts": "^6.1.0",
+    "@debbl/eslint-config": "^3.4.0",
+    "bumpp": "^9.4.1",
+    "eslint": "8.57.0",
+    "rollup": "^4.19.0",
+    "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
-    "typescript": "^5.4.2",
-    "vitest": "^1.3.1"
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.4"
   }
 }

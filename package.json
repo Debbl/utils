@@ -47,12 +47,12 @@
   },
   "devDependencies": {
     "@debbl/eslint-config": "^3.4.0",
-    "bumpp": "^9.4.1",
+    "bumpp": "^9.4.2",
     "eslint": "8.57.0",
-    "rollup": "^4.19.0",
+    "rollup": "^4.20.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
-    "typescript": "^5.5.3",
-    "vitest": "^2.0.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }

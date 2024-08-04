@@ -1,2 +1,4 @@
-export * from "./joinArr";
-export * from "./sleep";
+export * from "./array";
+export * from "./promise";
+export * from "./function";
+export * from "./math";

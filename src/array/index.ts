@@ -1,1 +1,1 @@
-export * from "./joinArr";
+export { joinArr } from "./joinArr";

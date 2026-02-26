@@ -48,7 +48,7 @@
   "devDependencies": {
     "@debbl/eslint-config": "^3.4.0",
     "bumpp": "^9.4.2",
-    "eslint": "8.57.0",
+    "eslint": "9.26.0",
     "rollup": "^4.20.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
